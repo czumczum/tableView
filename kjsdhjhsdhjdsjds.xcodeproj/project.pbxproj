@@ -12,7 +12,7 @@
 		28B7FB9C21121196000E5F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B7FB9A21121196000E5F65 /* Main.storyboard */; };
 		28B7FB9E211211A0000E5F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B7FB9D211211A0000E5F65 /* Assets.xcassets */; };
 		28B7FBA1211211A0000E5F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B7FB9F211211A0000E5F65 /* LaunchScreen.storyboard */; };
-		28B7FBA9211211B4000E5F65 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B7FBA8211211B4000E5F65 /* TableViewController.swift */; };
+		75EC792E21121BB900ADD4BA /* Custom Cells in Resources */ = {isa = PBXBuildFile; fileRef = 75EC792D21121BB800ADD4BA /* Custom Cells */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		28B7FB9D211211A0000E5F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B7FBA0211211A0000E5F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28B7FBA2211211A0000E5F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28B7FBA8211211B4000E5F65 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = Assets.xcassets/TableViewController.swift; sourceTree = "<group>"; };
+		75EC792D21121BB800ADD4BA /* Custom Cells */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Custom Cells"; path = "../../../IOS App/Emoji tracker/Emoji Tracker/Emoji Tracker/Custom Cells"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +56,9 @@
 		28B7FB9521121196000E5F65 /* kjsdhjhsdhjdsjds */ = {
 			isa = PBXGroup;
 			children = (
+				75EC792D21121BB800ADD4BA /* Custom Cells */,
 				28B7FB9621121196000E5F65 /* AppDelegate.swift */,
 				28B7FB9821121196000E5F65 /* ViewController.swift */,
-				28B7FBA8211211B4000E5F65 /* TableViewController.swift */,
 				28B7FB9A21121196000E5F65 /* Main.storyboard */,
 				28B7FB9D211211A0000E5F65 /* Assets.xcassets */,
 				28B7FB9F211211A0000E5F65 /* LaunchScreen.storyboard */,
@@ -127,6 +127,7 @@
 			files = (
 				28B7FBA1211211A0000E5F65 /* LaunchScreen.storyboard in Resources */,
 				28B7FB9E211211A0000E5F65 /* Assets.xcassets in Resources */,
+				75EC792E21121BB900ADD4BA /* Custom Cells in Resources */,
 				28B7FB9C21121196000E5F65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B7FB9921121196000E5F65 /* ViewController.swift in Sources */,
-				28B7FBA9211211B4000E5F65 /* TableViewController.swift in Sources */,
 				28B7FB9721121196000E5F65 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
